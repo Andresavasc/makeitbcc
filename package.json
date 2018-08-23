@@ -1,14 +1,17 @@
 {
   "name": "makeitbcc",
   "version": "1.0.0",
-  "homepage": "https://Andresavasc.github.io",
+  "private": true,
+  "homepage": "https://Andresavasc.github.io/my-app",
+  "dependencies": {
+    "gh-pages": "^1.2.0"
+    },
+
   "description": "package description",
   "scripts": {
     "deploy": "node --version",
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "dependencies": {
-    "devDependencies": {},
-    "gh-pages": "^1.2.0"
   }
+
 }
+
