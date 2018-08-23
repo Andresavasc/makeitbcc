@@ -3,11 +3,8 @@
   "name": "git-hub-prod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Andresavasc.github.io/my-app",
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "react-router-dom": "1.0.13"
-  },
+  "homepage": "https://andresavasc.github.io",
+
   "dependencies": {
     "autoprefixer": "7.1.6",
     "babel-core": "6.26.0",
@@ -63,9 +60,12 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js --env=jsdom"
+    "test": "node scripts/test.js --env=jsdom",
+
   },
   "jest": {
     "collectCoverageFrom": [
