@@ -1,0 +1,25 @@
+body {
+	background-image: url("./image/light-bulb-3535435_1920.jpg");
+}
+
+#navbar-center {
+	&.navbar-default {
+		background: #19196F;
+		border-color: #19196F;
+	}
+	.navbar-header {
+		left: 50%;
+		position: relative;
+		transform: translateX(-50%);
+		.navbar-brand {
+			img {
+				max-height: 1.8em;
+				min-height: 1.8em;
+			}
+		}
+	}
+}
+
+#main {
+	margin-top: 3.6em;
+}
