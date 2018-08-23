@@ -3,7 +3,7 @@
   "name": "git-hub-prod",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://andresavasc.github.io",
+  "homepage": "git remote set-url origin https://<user>:<token>@github.com/<user>/<repo>",
 
   "dependencies": {
     "autoprefixer": "7.1.6",
