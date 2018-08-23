@@ -1,6 +1,7 @@
 {
   "name": "makeitbcc",
   "version": "1.0.0",
+  "homepage": "https://Andresavasc.github.io",
   "description": "package description",
   "scripts": {
     "deploy": "node --version",
